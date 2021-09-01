@@ -38,7 +38,7 @@ a {
 .pos-content-cate {
     max-width: 1170px;
     position: absolute;
-    top: 870px;
+    top: 873px;
 }
 
 .list-product a {
@@ -257,7 +257,7 @@ li.contracts {
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 400;
-    margin-top: 51px;
+    margin-top: 53px;
     width: 170px;
     height: 50px;
     border: 1px solid #ffffff;
@@ -299,7 +299,7 @@ li.contracts {
     /*padding-top: 191px;*/
     /* padding-left: -24px; */
     /*margin-right: -38px;*/
-    padding-top: 84px;
+    padding-top: 92px;
     /* margin-left: -44px; */
     /* padding-top: 191px; */
     margin-right: -24px;
@@ -357,11 +357,11 @@ li.contracts {
 }
 
 .stregth {
-    padding: 31px 24px 27px 24px;
+    padding: 31px 18px 28px 24px;
 }
 
 .dumbbells-category {
-    padding: 46px 25px 27px 24px;
+    padding: 47px 25px 32px 31px;
 }
 
 .power-rack {
@@ -377,7 +377,7 @@ li.contracts {
 }
 
 .stregth h3 {
-    margin-top: 20px;
+    margin-top: 17px;
     font-size: 18px;
 }
 
@@ -401,15 +401,18 @@ li.contracts {
 }
 
 .stregth h5 {
-    margin-top: 18px;
+    margin-left: 8px;
+    margin-top: 16px;
     font-size: 14px;
+    line-height: 24px;
 }
 
 .dumbbells-category h5 {
     font-weight: 400;
     margin-top: 18px;
     font-size: 14px;
-    margin-left: 2px;
+    margin-left: 0px;
+    line-height: 23px;
 }
 
 .power-rack h5 {
@@ -431,7 +434,7 @@ li.contracts {
 /*.................PRODUCT.........................*/
 
 .product {
-    margin-top: 520px;
+    margin-top: 517px;
 }
 
 .tab-bar {
@@ -462,15 +465,15 @@ li.contracts {
 .nav-product-item:before {}
 
 #nav-pro-item-01 {
-    font-weight: 700;
-    margin-right: 1px;
+    font-weight: 600;
+    margin-right: 3px;
     /* margin: 0 9px; */
-    padding: 2px 13px 16px 25px;
+    padding: 2px 13px 16px 27px;
     margin-left: 7px;
 }
 
 #nav-pro-item-02 {
-    font-weight: 700;
+    font-weight: 600;
     margin-right: 2px;
     /* margin: 0 9px; */
     padding: 2px 13px 16px 25px;
@@ -478,7 +481,7 @@ li.contracts {
 }
 
 #nav-pro-item-03 {
-    font-weight: 700;
+    font-weight: 600;
     margin-right: 1px;
     /* margin: 0 9px; */
     padding: 2px 13px 16px 25px;
@@ -519,7 +522,7 @@ li.contracts {
     width: 100%;
     border-bottom: 1px solid #dddddd;
     margin: 0 auto;
-    margin-top: -6px;
+    margin-top: -3px;
 }
 .nav-product-list {
     margin-left: -15px;
@@ -674,43 +677,43 @@ li.contracts {
     font-weight: 400;
 }
 .info-pro-01 {
-    line-height: 22px;
-    margin-top: 29px;
-    margin-left: 14px;
+    line-height: 24px;
+    margin-top: 24px;
+    margin-left: 15px;
 }
 .info-pro-02 {
-    margin-top: 29px;
+    margin-top: 26px;
     line-height: 23px;
-    margin-left: 23px;
+    margin-left: 24px;
 }
 .info-pro-03 {
-    margin-top: 29px;
+    margin-top: 26px;
     line-height: 23px;
-    margin-left: 29px;
+    margin-left: 31px;
 }
 .info-pro-04 {
-    margin-top: 29px;
-    margin-left: 37px;
+    margin-top: 26px;
+    margin-left: 39px;
     line-height: 23px;
 }
 .info-pro-05 {
-    line-height: 23px;
-    margin-top: 69px;
-    margin-left: 14px;
+    line-height: 22px;
+    margin-top: 67px;
+    margin-left: 16px;
 }
 .info-pro-06 {
-    margin-top: 68px;
-    margin-left: 22px;
+    margin-top: 64px;
+    margin-left: 24px;
     line-height: 24px;
 }
 .info-pro-07 {
-    margin-top: 67px;
+    margin-top: 64px;
     margin-left: 30px;
     line-height: 24px;
 }
 .info-pro-08 {
-    margin-top: 67px;
-    margin-left: 38px;
+    margin-top: 64px;
+    margin-left: 39px;
     line-height: 24px;
 }
 .product-01-bottom h4 {
@@ -759,16 +762,20 @@ li.contracts {
 .txt-mess h3 {
     margin: auto;
     color: #777777;
-    margin-top: -51px;
+    margin-top: -53px;
     font-size: 18px;
     font-weight: 400;
     width: 764px;
-    line-height: 29px;
+    line-height: 30px;
+    margin-left: 297px;
     /* margin-left: -45px; */
 }
 .client-lina {
+    font-family: 'Poppins', sans-serif;
     margin: auto;
-    margin-top: 28px;
+    margin-top: 26px;
+    margin-left: -1px;
+    letter-spacing: -1px;
 }
 .client-lina h3 {
     text-transform: uppercase;
@@ -912,10 +919,10 @@ hr.hr-mid {
     font-size: 18px;
 }
 .contact-us {
-    margin-right: 38px;
+    margin-right: 35px;
 }
 .my-account {
-    margin-right: 177px;
+    margin-right: 178px;
 }
 .infomation {
     margin-right: 176px;
@@ -946,7 +953,7 @@ hr.hr-mid {
     background-color: #111111;
     color: #777777;
     text-align: center;
-    margin-top: 38px;
+    margin-top: 40px;
     height: 50px;
 }
 .copyright h4 {
