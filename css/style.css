@@ -236,7 +236,7 @@ li.contracts {
     justify-content: space-between;
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
-    */
+    
 }
 
 .pos-dumblles-left {
@@ -307,7 +307,6 @@ li.contracts {
 
 .pos-dumblles-right img {
     /*max-height: 759px;*/
-    ;
     height: 100%;
 }
 
@@ -489,7 +488,6 @@ li.contracts {
 }
 
 
-}
 .nav-product-list h3 {}
 .nav-product-list li {
     display: inline-block;
@@ -522,7 +520,7 @@ li.contracts {
     width: 100%;
     border-bottom: 1px solid #dddddd;
     margin: 0 auto;
-    margin-top: -3px;
+    margin-top: -6px;
 }
 .nav-product-list {
     margin-left: -15px;
