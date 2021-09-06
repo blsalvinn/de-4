@@ -39,6 +39,7 @@ a {
     max-width: 1170px;
     position: absolute;
     top: 873px;
+    left: 376px;
 }
 
 .list-product a {
@@ -104,7 +105,7 @@ a {
     margin: 0 375px 0 375px;
     margin: 0 auto;
     padding: 0 375px;*/
-    width: 1170px;
+    width: 1165px;
     /* width: 1175px; */
     margin: 0 auto;
 }
@@ -223,7 +224,7 @@ li.contracts {
 .header-big-bottom {}
 
 .bg-header-big-bottom {
-    max-width: 1170px;
+    max-width: 1165px;
     /* max-width: 1140px; */
     /* max-width: 1175px; */
     margin: 0 auto;
@@ -440,7 +441,7 @@ li.contracts {
     font-family: 'Poppins', sans-serif;
     /*    font-weight: bold;
     font-size: 7px;*/
-    max-width: 1170px;
+    max-width: 1165px;
     margin: 0 auto;
 }
 
@@ -882,12 +883,12 @@ hr.hr-mid {
     display: flex;
 }
 .icon-footer {
-    margin-top: 40px;
-    margin-bottom: 55px;
+    margin-top: 43px;
+    margin-bottom: 58px;
     text-align: center;
     margin-left: 18px;
     letter-spacing: -3px;
-    padding-right: 5px;
+    padding-right: 12px;
 }
 .icon-footer ul {
     display: inline-block;
@@ -897,7 +898,7 @@ hr.hr-mid {
     display: inline-block;
 }
 .bg-footer {
-    width: 1170px;
+    width: 1165px;
     margin: 0 auto;
 }
 
