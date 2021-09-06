@@ -39,7 +39,7 @@ a {
     max-width: 1170px;
     position: absolute;
     top: 872px;
-    left: 385px;
+    left: 373px;
 }
 
 .list-product a {
@@ -851,7 +851,9 @@ hr.hr-mid {
     display: flex;
     justify-content: space-between;
 }
-
+.brand-border{
+    margin-left: -11px;
+}
 /* .brand-boder ul li {
     padding: 0px 27px;
     display: inline-block;
@@ -904,7 +906,7 @@ hr.hr-mid {
 }
 .bg-footer {
     /* margin-left: 374px; */
-    margin-left: 383px;
+    margin-left: 373px;
     width: 1165px;
     /* margin: 0 auto; */
 }
@@ -962,7 +964,7 @@ hr.hr-mid {
     text-align: center;
     margin-top: 38px;
     height: 50px;
-    margin-left: 25px;
+    /* margin-left: 25px; */
 }
 .copyright h4 {
     letter-spacing: -1px;
