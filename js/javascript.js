@@ -3,4 +3,7 @@ $(document).ready(function() {
         dots: true,
         arrows: false
     })
+    $('.contracts-small-mobile').click(function() {
+        $('.nav-menu').toggleClass('show');
+    })
 });
