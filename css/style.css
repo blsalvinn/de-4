@@ -449,7 +449,7 @@ li.contracts {
     font-family: 'Poppins', sans-serif;
     /*    font-weight: bold;
     font-size: 7px;*/
-    max-width: 1165px;
+    max-width: 1186px;
     margin: 0 auto;
 }
 
@@ -532,7 +532,7 @@ li.contracts {
     margin-top: -6px;
 }
 .nav-product-list {
-    margin-left: -15px;
+    /* margin-left: -15px; */
     margin-top: -1px;
 }
 
@@ -593,14 +593,13 @@ li.contracts {
     margin-bottom: 46px;
 }
 .img-client {
-    /*margin: auto;*/
-    
     margin-top: 45px;
-    /*margin-left: -2px;*/
-    
+    margin-left: 18px;
     margin-bottom: 66px;
 }
 .client-content h2 {
+    margin-left: 20px;
+    /* margin-left: 14px; */
     font-size: 36px;
     font-weight: 700;
 }
@@ -612,11 +611,8 @@ li.contracts {
 }
 .client-mess {}
 .txt-mess {
-    /*    margin: auto;
-     margin-left: 385px; 
-     text-align: center; 
-    
-    max-width: 755px;*/
+    margin-left: 19px;
+    margin-top: 69px;
 }
 .list-produt {
     height: 230px;
@@ -685,42 +681,42 @@ li.contracts {
 }
 .info-pro-01 {
     line-height: 24px;
-    margin-top: 24px;
-    margin-left: 15px;
+    margin-top: 27px;
+    margin-left: 33px;
 }
 .info-pro-02 {
-    margin-top: 26px;
-    line-height: 23px;
-    margin-left: 24px;
+    margin-top: 27px;
+    line-height: 25px;
+    margin-left: 37px;
 }
 .info-pro-03 {
-    margin-top: 26px;
-    line-height: 23px;
-    margin-left: 31px;
+    margin-top: 27px;
+    line-height: 24px;
+    margin-left: 39px;
 }
 .info-pro-04 {
-    margin-top: 26px;
-    margin-left: 39px;
-    line-height: 23px;
+    margin-top: 27px;
+    margin-left: 43px;
+    line-height: 25px;
 }
 .info-pro-05 {
     line-height: 22px;
-    margin-top: 67px;
-    margin-left: 16px;
+    margin-top: 70px;
+    margin-left: 32px;
 }
 .info-pro-06 {
-    margin-top: 64px;
-    margin-left: 24px;
+    margin-top: 66px;
+    margin-left: 36px;
     line-height: 24px;
 }
 .info-pro-07 {
-    margin-top: 64px;
-    margin-left: 30px;
+    margin-top: 66px;
+    margin-left: 40px;
     line-height: 24px;
 }
 .info-pro-08 {
-    margin-top: 64px;
-    margin-left: 39px;
+    margin-top: 66px;
+    margin-left: 43px;
     line-height: 24px;
 }
 .product-01-bottom h4 {
@@ -732,35 +728,35 @@ li.contracts {
 }
 .img-sp01 {
     margin-top: 22px;
-    margin-left: 40px;
+    margin-left: 58px;
 }
 .img-sp02 {
     margin-top: 24px;
-    margin-left: 48px;
+    margin-left: 61px;
 }
 .img-sp03 {
     margin-top: 25px;
-    margin-left: 33px;
+    margin-left: 43px;
 }
 .img-sp04 {
     margin-top: 35px;
-    margin-left: 33px;
+    margin-left: 38px;
 }
 .img-sp05 {
     margin-top: 63px;
-    margin-left: 31px;
+    margin-left: 49px;
 }
 .img-sp06 {
     margin-top: 57px;
-    margin-left: 3px;
+    margin-left: 16px;
 }
 .img-sp07 {
     margin-top: 37px;
-    margin-left: 37px;
+    margin-left: 47px;
 }
 .img-sp08 {
     margin-top: 56px;
-    margin-left: 54px;
+    margin-left: 59px;
 }
 
 /**/
@@ -781,7 +777,7 @@ li.contracts {
     font-family: 'Poppins', sans-serif;
     margin: auto;
     margin-top: 26px;
-    margin-left: -1px;
+    margin-left: 16px;
     letter-spacing: -1px;
 }
 .client-lina h3 {
@@ -790,7 +786,7 @@ li.contracts {
 .happy-client {
     margin: auto;
     /* margin-left: 52px; */
-    
+    margin-left: 17px;
     margin-top: 7px;
 }
 .happy-client h4 {
@@ -808,7 +804,7 @@ hr {
     margin: 0 auto;
 }
 hr.hr-bottom {
-    margin-bottom: 72px;
+    /* margin-bottom: 72px; */
     border: 1px solid #444444;
 }
 hr.hr-mid {
@@ -817,10 +813,11 @@ hr.hr-mid {
 }
 .brand {
     /* max-width: 1140px; */
-    
+    margin-left: 374px;
     height: 100px;
     max-width: 1170px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    margin-left: 384px;
 }
 .brand-01 {
     margin-right: 4px;
@@ -860,7 +857,7 @@ hr.hr-mid {
     display: inline-block;
 } */
 .footer-page {
-    margin-top: 17px;
+    margin-top: 15px;
     background-color: #222222;
 }
 .logo-footer {
@@ -906,14 +903,17 @@ hr.hr-mid {
     display: inline-block;
 }
 .bg-footer {
+    /* margin-left: 374px; */
+    margin-left: 383px;
     width: 1165px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
-
+.top-footer{
+    margin-left: 10px;
 }
 .bottom-footer {
-    margin-top: 79px;
-    margin-bottom: 50px;
+    margin-top: 72px;
+    /* margin-bottom: 50px; */
 }
 .bottom-footer {
     font-family: 'Poppins',
@@ -960,8 +960,9 @@ hr.hr-mid {
     background-color: #111111;
     color: #777777;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 38px;
     height: 50px;
+    margin-left: 25px;
 }
 .copyright h4 {
     letter-spacing: -1px;
