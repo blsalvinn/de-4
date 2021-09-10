@@ -7,14 +7,21 @@ jQuery(document).ready(function() {
     $('.menu-toggle').click(function(e) {
         $('.nav-menu').toggleClass('active');
         e.preventDefault();
-    })
-
-    // 
+    });
+    //text-search
+    $('.site-search-wrapper .fas.fa-search').click(function(e) {
+        $('.border-text').toggleClass('active');
+        e.preventDefault();
+    });
+    // client-say
     let slidePosition = 0;
     const slides = $('.carousel-item');
     const dots = $('.dots');
     const totalDot = dots.length;
-    document.getElementById("dot-event").addEventListener("click", function() {
+    $('#test').on('click', function() {
+        // console.log(totalDot);
+    });
+    $('#dot-event').on('click', function() {
         moveDotSilde();
     });
 
@@ -39,14 +46,14 @@ jQuery(document).ready(function() {
         }
         updateSlidePosition()
     }
-    //
+    // brand
     let slidePosition_brand = 0;
     const slides_brand = $('.mySlides');
     const totalSlides_brand = slides_brand.length;
-    document.getElementById("prev").addEventListener("click", function() {
+    $('#prev').bind('click', function() {
         movetoPrevSlide();
     });
-    document.getElementById("next").addEventListener("click", function() {
+    $('#next').bind('click', function() {
         movetoNextSlide();
     });
 
