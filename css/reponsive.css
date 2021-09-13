@@ -2612,6 +2612,6 @@
 }
 
 .logo-footer img {
-    width: auto;
+    /* width: auto; */
     margin: 33px 0 29px 0;
 }
