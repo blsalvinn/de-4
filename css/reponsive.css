@@ -468,9 +468,78 @@
         position: absolute;
     }
     .caurosel_action {
-        top: 1166%;
+        top: 596%;
         display: block;
         position: absolute;
+    }
+    .footer-page {
+        margin-top: 6px;
+    }
+    .logo-footer img {
+        width: 35%;
+        margin: 33px 0 29px 0;
+    }
+    .txt-footer {
+        margin-top: auto;
+        text-align: center;
+        padding-left: auto;
+        padding-right: auto;
+        padding-left: auto;
+        line-height: 23px;
+    }
+    .txt-footer h4 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 10px;
+        color: #717171;
+        font-weight: 400;
+        text-align: center;
+    }
+    .icon-footer {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        text-align: center;
+        margin-left: 0;
+        letter-spacing: -15px;
+        padding-right: 0;
+    }
+    .border-icon-footer ul li a {
+        font-size: 15px;
+    }
+    .infor-footer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contact-us {
+        margin-right: 0;
+    }
+    .my-account {
+        margin-top: 10px;
+    }
+    .infomation {
+        margin-top: 10px;
+    }
+    .qick-link {
+        margin-top: 10px;
+    }
+    .infor-footer h3 {
+        font-size: 14px;
+    }
+    .infor-footer ul {
+        line-height: 39px;
+        margin-top: 2px;
+    }
+    .infor-footer li a {
+        font-size: 11px;
+    }
+    .bottom-footer {
+        margin-top: 38px;
+    }
+    .copyright {
+        margin-top: 21px;
+        height: 40px;
+    }
+    .copyright h4 {
+        font-size: 8px;
     }
 }
 
@@ -491,6 +560,213 @@
         background-position: center;
         width: 100%;
     }
+    /*  */
+    .logo-contracts {
+        margin-left: 9px;
+        padding-top: 23px;
+    }
+    .nav-menu {
+        margin-right: 22px;
+    }
+    li.page {
+        margin-left: -6px;
+    }
+    li.classes {
+        margin-left: 2px;
+    }
+    li.blog {
+        margin-left: -3px;
+    }
+    li.portfolio {
+        margin-left: 14px;
+    }
+    li.contracts {
+        margin-right: 19px;
+    }
+    .site-search-wrapper {
+        padding-top: 42px;
+        margin-right: 9px;
+    }
+    .category-pro .site-wrapper {
+        max-width: 1183px;
+    }
+    .pos-dumblles-right {
+        padding-top: 109px;
+        margin-right: -15px;
+        height: 100%;
+    }
+    .pos-dumblles-left {
+        margin-left: 5px;
+        padding-top: 213px;
+    }
+    .sub-dumbells-shop {
+        margin-top: 20px;
+        margin-left: 3px;
+    }
+    .sub-dumbells-shop p {
+        font-weight: 300;
+    }
+    .shop-now {
+        margin-left: 3px;
+    }
+    .stregth {
+        padding: 35px 20px 28px 24px;
+    }
+    .dumbbells-category {
+        padding: 47px 31px 32px 31px;
+    }
+    .power-rack {
+        padding: 31px 19px 26px 36px;
+    }
+    #bg-catergory-content {
+        margin-top: -5px;
+    }
+    .nav-product-list {
+        margin-left: -7px;
+        margin-top: -2px;
+    }
+    #nav-pro-item-02 {
+        margin-right: 5px;
+    }
+    .line {
+        margin-top: -5px;
+    }
+    .product-01-bottom {
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+    }
+    .product-01-bottom h3 {
+        font-weight: 600;
+    }
+    .product-01-bottom h4 {
+        font-weight: 700;
+    }
+    .img-sp01 {
+        margin-top: 20px;
+        margin-left: 64px;
+    }
+    .img-sp02 {
+        margin-top: 22px;
+        margin-left: 60px;
+    }
+    .img-sp03 {
+        margin-top: 23px;
+        margin-left: 34px;
+    }
+    .img-sp04 {
+        margin-top: 33px;
+        margin-left: 22px;
+    }
+    .img-sp05 {
+        margin-top: 61px;
+        margin-left: 55px;
+    }
+    .img-sp06 {
+        margin-top: 55px;
+        margin-left: 15px;
+    }
+    .img-sp07 {
+        margin-top: 35px;
+        margin-left: 38px;
+    }
+    .img-sp08 {
+        margin-top: 56px;
+        margin-left: 43px;
+    }
+    .info-pro-01 {
+        margin-left: 38px;
+    }
+    .info-pro-04 {
+        margin-top: 25px;
+        margin-left: 27px;
+    }
+    .info-pro-05 {
+        margin-left: 39px;
+        margin-top: 68px;
+    }
+    .info-pro-07 {
+        margin-left: 32px;
+    }
+    /*  */
+    .client-say .frame-client {
+        margin-top: 123px;
+    }
+    .client-content {
+        margin-left: -19px;
+    }
+    .img-client {
+        margin-left: 0px;
+    }
+    .txt-mess {
+        margin-left: 5px;
+        margin-top: 67px;
+    }
+    .client-lina {
+        margin-left: -1px;
+    }
+    .happy-client {
+        margin-left: -1px;
+    }
+    .btn-client {
+        margin-top: -16px;
+        margin-left: 5px;
+    }
+    .client-say {
+        margin-bottom: 93px;
+    }
+    .brand .site-wrapper {
+        max-width: 1170px;
+    }
+    .footer-page {
+        margin-top: 35px;
+    }
+    .logo-footer img {
+        width: auto;
+    }
+    .top-footer {
+        padding-top: 67px;
+    }
+    .txt-footer {
+        margin-top: 1px;
+    }
+    .fa-twitter {
+        font-size: 18px;
+        margin-left: 21px;
+    }
+    .fa-facebook-f:before {
+        content: "\f39e";
+        margin-left: 2px;
+        font-size: 17px;
+        margin-right: -29px;
+    }
+    .fa-google-plus-g:before {
+        content: "\f0d5";
+        margin-left: 2px;
+    }
+    .fa-youtube:before {
+        content: "\f167";
+        margin-right: 9px;
+    }
+    .fa-facebook-f,
+    .fa-twitter,
+    .fa-google-plus-g {
+        margin-right: 48px;
+        color: #777777;
+    }
+    .bottom-footer {
+        margin-top: 69px;
+    }
+    .contact-us {
+        margin-left: 7px;
+        margin-right: 35px;
+    }
+    /*  */
+    /*  */
+    .dad-pos-cate {
+        margin-left: 8px;
+        margin-right: 12px;
+        top: -76px;
+    }
     .caurosel_action {
         display: none;
     }
@@ -504,9 +780,7 @@
         width: 18%;
         margin: 33px 0 29px 0;
     }
-    .contact-us {
-        margin-right: 61px;
-    }
+    /*  */
 }
 
 @media (width: 1440px) {
@@ -1087,6 +1361,9 @@
     .caurosel_action {
         position: relative;
     }
+    .caurosel_action {
+        display: block;
+    }
     #prev {
         position: absolute;
         width: auto;
@@ -1158,7 +1435,7 @@
         margin-right: 37px;
     }
     .infomation {
-        margin-right: 86px;
+        margin-right: 154px;
     }
     .copyright {
         margin-top: 37px;
@@ -1686,9 +1963,12 @@
         position: absolute;
     }
     .caurosel_action {
-        top: 1085%;
+        top: 560%;
         display: block;
         position: absolute;
+    }
+    .img-brand {
+        margin: 0 22px;
     }
     /* ----------------------- */
     .footer-page {
@@ -2239,9 +2519,15 @@
         position: absolute;
     }
     .caurosel_action {
-        top: 1055%;
+        top: 546%;
         display: block;
         position: absolute;
+    }
+    .brand-boder {
+        display: none;
+    }
+    .brand-boder-slide {
+        display: block;
     }
     /* ----------------------- */
     .footer-page {
@@ -2319,87 +2605,10 @@
 /*  */
 
 .footer-page {
-    margin-top: 6px;
+    /* margin-top: 6px; */
 }
 
 .logo-footer img {
-    width: 35%;
+    width: auto;
     margin: 33px 0 29px 0;
-}
-
-.txt-footer {
-    margin-top: auto;
-    text-align: center;
-    padding-left: auto;
-    padding-right: auto;
-    padding-left: auto;
-    line-height: 23px;
-}
-
-.txt-footer h4 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 10px;
-    color: #717171;
-    font-weight: 400;
-    text-align: center;
-}
-
-.icon-footer {
-    margin-top: 25px;
-    margin-bottom: 25px;
-    text-align: center;
-    margin-left: 0;
-    letter-spacing: -15px;
-    padding-right: 0;
-}
-
-.border-icon-footer ul li a {
-    font-size: 15px;
-}
-
-.infor-footer {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.contact-us {
-    margin-right: 0;
-}
-
-.my-account {
-    margin-top: 10px;
-}
-
-.infomation {
-    margin-top: 10px;
-}
-
-.qick-link {
-    margin-top: 10px;
-}
-
-.infor-footer h3 {
-    font-size: 14px;
-}
-
-.infor-footer ul {
-    line-height: 39px;
-    margin-top: 2px;
-}
-
-.infor-footer li a {
-    font-size: 11px;
-}
-
-.bottom-footer {
-    margin-top: 38px;
-}
-
-.copyright {
-    margin-top: 21px;
-    height: 40px;
-}
-
-.copyright h4 {
-    font-size: 8px;
 }
