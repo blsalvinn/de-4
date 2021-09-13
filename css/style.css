@@ -23,6 +23,7 @@ a {
 
 .site-header-big {
     background-image: url(../images/silde.png);
+    height: 667px;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -172,6 +173,7 @@ li.contracts {
 .pos-dumblles-right {
     padding-top: 92px;
     margin-right: -24px;
+    height: 585px;
 }
 
 .pos-dumblles-right img {
@@ -835,6 +837,29 @@ hr.hr-mid {
 }
 
 
+/*  */
+
+.brand-boder {
+    display: none;
+}
+
+.brand-boder-slide {
+    display: block;
+}
+
+.mySlides--hidden {
+    display: none;
+}
+
+.mySlides.active {
+    display: block;
+}
+
+.caurosel_action {
+    top: 1166%;
+}
+
+
 /* --------Footer---------- */
 
 .footer-page {
@@ -1231,6 +1256,14 @@ hr.hr-mid {
         flex: 0 0 50%;
         max-width: 50%;
     }
+    .caurosel_action {
+        display: block;
+        position: absolute;
+        margin-top: -28px;
+    }
+    .mySlides.fade {
+        display: none;
+    }
     /* === */
     .line {
         max-width: 320px;
@@ -1436,18 +1469,6 @@ hr.hr-mid {
         color: #777777;
         font-size: 10px;
     }
-    .dots {
-        cursor: pointer;
-        height: 9px;
-        width: 8px;
-    }
-    .carousel_dot {
-        text-align: center;
-        position: absolute;
-        bottom: -19%;
-        left: 7%;
-        right: 0;
-    }
     /* ---------------- */
     .client-say {
         text-align: center;
@@ -1456,6 +1477,7 @@ hr.hr-mid {
     }
     /* -------------------- */
     .brand .site-wrapper {
+        height: 50px;
         max-width: 320px;
         padding: 0px 0px 0 15px;
     }
@@ -1495,84 +1517,126 @@ hr.hr-mid {
         margin-right: 0px;
         margin-top: -13px;
     }
-    /* ----------------------- */
-    .footer-page {
-        margin-top: 6px;
+    /*  */
+    .brand-boder {
+        display: none;
     }
-    .logo-footer img {
-        width: 35%;
-        margin: 33px 0 29px 0;
-    }
-    .txt-footer {
-        margin-top: auto;
+    .brand-boder-slide {
         text-align: center;
-        padding-left: auto;
-        padding-right: auto;
-        padding-left: auto;
-        line-height: 23px;
+        display: block;
     }
-    .txt-footer h4 {
-        font-family: 'Poppins', sans-serif;
-        font-size: 10px;
-        color: #717171;
-        font-weight: 400;
-        text-align: center;
+    .mySlides--hidden {
+        display: none;
     }
-    .icon-footer {
-        margin-top: 25px;
-        margin-bottom: 25px;
-        text-align: center;
-        margin-left: 0;
-        letter-spacing: -15px;
-        padding-right: 0;
+    .mySlides.active {
+        display: block;
     }
-    .border-icon-footer ul li a {
-        font-size: 15px;
+    .caurosel_action {
+        top: 1166%;
     }
-    .infor-footer {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .contact-us {
-        margin-right: 0;
-    }
-    .my-account {
-        margin-top: 10px;
-    }
-    .infomation {
-        margin-top: 10px;
-    }
-    .qick-link {
-        margin-top: 10px;
-    }
-    .infor-footer h3 {
-        font-size: 14px;
-    }
-    .infor-footer ul {
-        line-height: 39px;
-        margin-top: 2px;
-    }
-    .infor-footer li a {
-        font-size: 11px;
-    }
-    .bottom-footer {
-        margin-top: 38px;
-    }
-    .copyright {
-        margin-top: 21px;
-        height: 40px;
-    }
-    .copyright h4 {
-        font-size: 8px;
+    #next {
+        right: -287px;
     }
 }
 
+
+/* ----------------------- */
+
+.footer-page {
+    margin-top: 6px;
+}
+
+.logo-footer img {
+    width: 35%;
+    margin: 33px 0 29px 0;
+}
+
+.txt-footer {
+    margin-top: auto;
+    text-align: center;
+    padding-left: auto;
+    padding-right: auto;
+    padding-left: auto;
+    line-height: 23px;
+}
+
+.txt-footer h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    color: #717171;
+    font-weight: 400;
+    text-align: center;
+}
+
+.icon-footer {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    margin-left: 0;
+    letter-spacing: -15px;
+    padding-right: 0;
+}
+
+.border-icon-footer ul li a {
+    font-size: 15px;
+}
+
+.infor-footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-us {
+    margin-right: 0;
+}
+
+.my-account {
+    margin-top: 10px;
+}
+
+.infomation {
+    margin-top: 10px;
+}
+
+.qick-link {
+    margin-top: 10px;
+}
+
+.infor-footer h3 {
+    font-size: 14px;
+}
+
+.infor-footer ul {
+    line-height: 39px;
+    margin-top: 2px;
+}
+
+.infor-footer li a {
+    font-size: 11px;
+}
+
+.bottom-footer {
+    margin-top: 38px;
+}
+
+.copyright {
+    margin-top: 21px;
+    height: 40px;
+}
+
+.copyright h4 {
+    font-size: 8px;
+}
+
+
+}
 @media (width: 1920px) {
     .site-wrapper {
         max-width: 1186px;
         width: 100%;
         margin: 0 auto;
     }
+    
     .site-header-big {
         background: url(../images/silde.png);
         height: 950px;
@@ -1582,13 +1646,13 @@ hr.hr-mid {
         width: 100%;
     }
 }
-
 @media (width: 1440px) {
     .site-wrapper {
         max-width: 1440px;
         width: 100%;
         padding: 0 158px;
     }
+    
     .site-header-big {
         background: url(../images/silde.png);
         height: 713px;
@@ -1597,24 +1661,27 @@ hr.hr-mid {
         background-position: center;
         width: 100%;
     }
+    
     .pos-dumblles-right {
         height: 630px;
     }
+    
     .btn-client {
         margin-top: -30px;
         margin-left: 30px;
     }
+    
     .btn-client button {
         height: 10px;
         width: 10px;
     }
 }
-
 @media (width: 1024px) {
     .site-wrapper {
         max-width: 1024px;
         padding: 0px 80px;
     }
+    
     .site-header-big {
         background: url(../images/silde.png);
         height: 507px;
@@ -1623,47 +1690,58 @@ hr.hr-mid {
         background-position: center;
         width: 100%;
     }
+    
     .nav-menu {
         max-width: 488px;
         font-size: 14px;
         padding-top: 42px;
     }
+    
     .nav-menu li {
         width: auto;
     }
+    
     .nav-menu li.home {
         margin-left: 0;
     }
+    
     li.contracts {
         margin-right: 0;
     }
+    
     .site-search-wrapper a {
         font-size: 13px;
     }
+    
     .pos-dumblles-left {
         margin-left: 46px;
         padding-top: 95px;
     }
+    
     .pos-dumblles-right {
         padding-top: 37px;
         margin-right: 30px;
         width: 25%;
     }
+    
     .title-dumbells-shop h1 {
         /* margin-top: 13px; */
         font-size: 40px;
     }
+    
     .title-dumbells-shop h3 {
         margin-top: -9px;
         font-size: 27px;
         /* margin-top: -9px; */
     }
+    
     .sub-dumbells-shop p {
         color: #ffffff;
         line-height: 24px;
         font-weight: 200;
         font-size: 9px;
     }
+    
     .shop-now {
         font-size: 12px;
         text-transform: uppercase;
@@ -1677,39 +1755,49 @@ hr.hr-mid {
         color: #f1f2f2;
     }
     /* ------------------- */
+    
     .dad-pos-cate {
         position: absolute;
         top: -40px;
         left: 9%;
     }
+    
     .pos-content-cate {
         width: 800px;
     }
+    
     .img-category-01 img {
         height: 100%;
         width: 266.33px;
     }
+    
     .img-category-02 img {
         width: 266.33px;
         height: 100%;
     }
+    
     .img-category-03 img {
         width: 266.33px;
         height: 100%;
     }
+    
     .stregth {
         padding: 9px 0 0px 0;
     }
+    
     .dumbbells-category {
         padding: 21px 0 0 0;
     }
+    
     .power-rack {
         padding: 13px 0 0px 5px;
     }
     /*  */
+    
     .product {
         margin-top: 474px;
     }
+    
     .line {
         max-width: 1024px;
         width: 90%;
@@ -1717,46 +1805,56 @@ hr.hr-mid {
         margin-top: -6px;
     }
     /*  */
+    
     .product-content {
         margin-top: 21px;
     }
+    
     .product-01-top {
         height: 178px;
     }
+    
     .list-product img {
         width: 108%;
     }
+    
     .my-account {
         margin-right: 111px;
     }
+    
     .infor-footer h3 {
         font-size: 13px;
     }
+    
     .infor-footer li a {
         font-size: 12px;
         color: #777777;
     }
+    
     .infomation {
         margin-right: 129px;
     }
+    
     .site-search-wrapper {
         padding-top: 44px;
     }
+    
     .btn-client {
         margin-top: -30px;
         margin-left: 30px;
     }
+    
     .btn-client button {
         height: 10px;
         width: 10px;
     }
 }
-
 @media (width: 768px) {
     .site-wrapper {
         max-width: 768px;
         padding: 0px 40px;
     }
+    
     .site-header-big {
         background: url(../images/silde.png);
         height: 380px;
@@ -1765,22 +1863,28 @@ hr.hr-mid {
         background-position: center;
         width: 100%;
     }
+    
     .header-contracts {
         margin-right: 0px;
     }
+    
     .header-big-top {
         max-width: 320px;
         padding: 0 15px;
     }
+    
     .logo-contracts img {
         width: 100%;
     }
+    
     .header-contracts {
         position: relative;
     }
+    
     .menu-toggle {
         display: inline-block;
     }
+    
     .nav-menu {
         position: absolute;
         background-color: rgba(0, 0, 0, 0.6);
@@ -1793,6 +1897,7 @@ hr.hr-mid {
         max-width: 320px;
         width: 100%;
     }
+    
     .menu-toggle {
         color: #fff;
         float: right;
@@ -1804,41 +1909,52 @@ hr.hr-mid {
         position: absolute;
         top: 52%;
     }
+    
     .nav-menu {
         width: 80%;
         padding-top: 0px;
         margin-right: auto;
     }
+    
     .nav-menu.active {
         opacity: 1;
         visibility: visible;
     }
+    
     .nav-menu ul.menu-header li {
         display: block;
         border-bottom: 1px solid #ffffff;
     }
+    
     .nav-menu ul.menu-header li {
         list-style: none;
         line-height: 50px;
     }
+    
     .nav-menu li.home {
         margin-left: 0px;
     }
+    
     .nav-menu ul {}
+    
     .nav-menu li {
         width: auto;
     }
+    
     .nav-menu ul {
         display: block;
         justify-content: space-between;
         flex-wrap: wrap;
     }
+    
     li.contracts {
         margin-right: auto;
     }
+    
     .menu-header {
         margin: 0 15px;
     }
+    
     .site-search-wrapper {
         position: absolute;
         display: inline-block;
@@ -1847,37 +1963,46 @@ hr.hr-mid {
         z-index: 15;
         padding: 0 15px;
     }
+    
     .site-search-wrapper ul li a {
         font-size: 14px;
     }
     /*  */
+    
     .site-search-wrapper a {
         font-size: 13px;
     }
+    
     .pos-dumblles-left {
         padding-top: 32px;
     }
+    
     .pos-dumblles-right {
         padding-top: 14px;
         width: 22%;
     }
+    
     .title-dumbells-shop h1 {
         font-size: 30px;
     }
+    
     .title-dumbells-shop h3 {
         margin-top: -9px;
         font-size: 20px;
     }
+    
     .sub-dumbells-shop p {
         color: #ffffff;
         line-height: 24px;
         font-weight: 200;
         font-size: 9px;
     }
+    
     .sub-dumbells-shop {
         margin-top: 8px;
         margin-left: 6px;
     }
+    
     .shop-now {
         font-size: 10px;
         text-transform: uppercase;
@@ -1892,68 +2017,85 @@ hr.hr-mid {
     }
     /* ------------------- */
     /* -------------------- */
+    
     .dad-pos-cate {
         position: absolute;
         top: -23px;
         left: 25px;
     }
+    
     .pos-content-cate {
         width: 646px;
     }
+    
     .img-category-01 img {
         height: 100%;
         width: 215.33px;
     }
+    
     .img-category-02 img {
         width: 215.33px;
         height: 100%;
     }
+    
     .img-category-03 img {
         width: 215.33px;
         height: 100%;
     }
+    
     .stregth {
         padding: 15px 0 0px 0;
     }
+    
     .dumbbells-category {
         padding: 25px 0 0 0;
     }
+    
     .power-rack {
         padding: 25px 0 0px 0px;
     }
+    
     .stregth img {
         width: 15%;
     }
+    
     .dumbbells-category img {
         width: 15%;
     }
+    
     .power-rack img {
         width: 15%;
     }
+    
     .stregth h3 {
         margin-top: 0;
         font-size: 14px;
     }
+    
     .stregth h5 {
         margin-left: 0px;
         margin-top: 0px;
         font-size: 9px;
         line-height: 18px;
     }
+    
     .dumbbells-category h3 {
         margin-top: 0;
         font-size: 14px;
     }
+    
     .dumbbells-category h5 {
         margin-left: 0px;
         margin-top: 0px;
         font-size: 9px;
         line-height: 18px;
     }
+    
     .power-rack h3 {
         margin-top: 0;
         font-size: 14px;
     }
+    
     .power-rack h5 {
         margin-left: 0px;
         margin-top: 0px;
@@ -1961,9 +2103,11 @@ hr.hr-mid {
         line-height: 18px;
     }
     /*  */
+    
     .product {
         margin-top: 328px;
     }
+    
     .line {
         max-width: 1024px;
         width: 90%;
@@ -1971,12 +2115,15 @@ hr.hr-mid {
         margin-top: -6px;
     }
     /*  */
+    
     .list-product {
         margin: auto;
     }
+    
     .product-content {
         margin-top: 21px;
     }
+    
     .border-pro-01,
     .product-category {
         padding: 0 14px;
@@ -1984,12 +2131,15 @@ hr.hr-mid {
         flex: 0 0 50%;
         max-width: 50%;
     }
+    
     .product-01-top {
         height: 75%;
     }
+    
     .list-product img {
         width: 108%;
     }
+    
     .img-sp01,
     .img-sp02,
     .img-sp03,
@@ -2004,6 +2154,7 @@ hr.hr-mid {
         margin-top: 0px;
         margin-left: 0px;
     }
+    
     .img-sp03,
     .img-sp04,
     .img-sp05,
@@ -2012,22 +2163,27 @@ hr.hr-mid {
     .img-sp08 {
         margin-top: 10px;
     }
+    
     .icon-pro-01 {
         margin-left: 0px;
         margin-top: 2px;
     }
+    
     #icon-pro-top ul {
         margin-left: 5px;
         margin-top: 4px;
     }
+    
     #icon-pro-bottom ul {
         margin-top: 0;
         margin-left: 0px;
     }
+    
     .icon-pro-01>ul {
         visibility: visible;
         opacity: 1;
     }
+    
     .icon-pro-01,
     .icon-pro-02,
     .icon-pro-03,
@@ -2041,39 +2197,52 @@ hr.hr-mid {
         margin-top: 20px;
         margin-left: 0;
     }
+    
     .product-content {
         margin-top: 21px;
         margin-left: 35px;
     }
+    
     .info-pro-03,
     .info-pro-04 {
         margin-top: 5px;
     }
+    
     .sp04,
     .sp06 {
         margin-top: 24px;
     }
     /*  */
+    
+    .client-say {
+        margin-bottom: 70px;
+    }
+    
     .client-say .frame-client {
         margin-top: 50px;
     }
+    
     .client-content h2 {
         margin-left: 0;
         font-size: 22px;
         font-weight: 700;
     }
+    
     .img-client {
         margin-top: 13px;
         margin-left: 0;
         margin-bottom: 0;
     }
+    
     .img-client img {
         width: 7%;
     }
+    
     .txt-mess {
         margin-left: 0;
         margin-top: 69px;
     }
+    
     .txt-mess h3 {
         margin: auto;
         color: #777777;
@@ -2083,19 +2252,24 @@ hr.hr-mid {
         width: 477px;
         line-height: 30px;
     }
+    
     .client-lina {
         margin-top: 18px;
         margin-left: 0;
     }
+    
     .client-lina h3 {
         font-size: 15px;
     }
+    
     .happy-client {
         margin-left: 0;
     }
+    
     .happy-client h4 {
         font-size: 11px;
     }
+    
     .carousel_dot {
         text-align: center;
         position: absolute;
@@ -2103,26 +2277,32 @@ hr.hr-mid {
         left: -3px;
         right: 0;
     }
+    
     .dots {
         height: 9px;
         width: 8px;
     }
     /*  */
+    
     .brand-boder {
         display: none;
     }
+    
     .brand-boder-slide {
         display: block;
     }
+    
     .brand-boder-slide {
         text-align: center;
         height: 90px;
         position: relative;
     }
     /*  */
+    
     .caurosel_action {
         position: relative;
     }
+    
     #prev {
         position: absolute;
         width: auto;
@@ -2130,6 +2310,7 @@ hr.hr-mid {
         color: rgb(0, 0, 0);
         font-size: 13px;
     }
+    
     #next {
         position: absolute;
         right: 0;
@@ -2138,31 +2319,39 @@ hr.hr-mid {
         color: rgb(24, 22, 22);
         font-size: 13px;
     }
+    
     #prev,
     #next {
         border: none;
-        top: 45px;
+        top: -32px;
         padding: 4px;
     }
+    
     #prev {
         left: 0;
     }
+    
     .mySlides:not(:first-child) {
         display: none;
     }
+    
     .mySlides--hidden {
         display: none;
     }
+    
     .mySlides--hidden.active {
         display: block;
     }
+    
     .img-brand {
         margin: 0 74px;
     }
+    
     .logo-footer img {
         margin: 47px 0 39px 0;
         width: 25%;
     }
+    
     .txt-footer {
         margin-top: 0;
         text-align: center;
@@ -2171,9 +2360,11 @@ hr.hr-mid {
         padding-left: 0;
         line-height: 23px;
     }
+    
     .txt-footer h4 {
         font-size: 13px;
     }
+    
     .icon-footer {
         margin-top: 24px;
         margin-bottom: 31px;
@@ -2182,98 +2373,121 @@ hr.hr-mid {
         letter-spacing: -3px;
         padding-right: 0;
     }
+    
     .infor-footer {
         flex-wrap: wrap;
         display: flex;
     }
+    
     .contact-us {
         margin-right: px;
     }
+    
     .my-account {
         margin-left: 4px;
         margin-right: 0;
     }
+    
     .infomation {
         margin-right: 176px;
     }
+    
     .copyright {
         margin-top: 37px;
         height: 48px;
     }
+    
     .copyright h4 {
         font-size: 15px;
     }
+    
     .text-search {
         position: absolute;
         right: 24%;
         top: 81%;
     }
+    
     .search {
         width: 3%;
         position: absolute;
         right: 24%;
         top: 81%;
     }
+    
     .border-text.active {
         display: block;
     }
+    
     .btn-client {
         margin-top: -34px;
         margin-left: 14px;
     }
+    
     .btn-client button {
         height: 9px;
         width: 9px;
         margin-right: 6px;
     }
 }
-
 @media (width: 425px) {
     .bg-header-big-top {
         height: 60px;
     }
+    
     .header-contracts {
         margin-right: 0px;
     }
+    
     .header-big-top {
         max-width: 320px;
         padding: 0 15px;
     }
+    
     .text-search {
         position: absolute;
         right: 29%;
         top: 95%;
     }
+    
     #myInput {
         width: 100px;
     }
+    
     .border-text .fas.fa-search {
         border-right: 0;
     }
+    
     .search {
         width: 7%;
         position: absolute;
         right: 23%;
         top: 95%;
     }
+    
     .search a {
         color: #ac9090;
     }
+    
     .border-text.active {
         display: block;
     }
+    
     .logo-contracts {
         padding-top: 15px;
     }
+    
     .logo-contracts img {
         width: 50%;
     }
+    
     .header-contracts {
         position: relative;
     }
+    
     .menu-toggle {
         display: inline-block;
     }
+    
     .nav-menu {
         position: absolute;
         background-color: rgba(0, 0, 0, 0.6);
@@ -2286,41 +2500,52 @@ hr.hr-mid {
         max-width: 320px;
         width: 100%;
     }
+    
     .nav-menu {
         width: 80%;
         padding-top: 0px;
         margin-right: auto;
     }
+    
     .nav-menu.active {
         opacity: 1;
         visibility: visible;
     }
+    
     .nav-menu ul.menu-header li {
         display: block;
         border-bottom: 1px solid #ffffff;
     }
+    
     .nav-menu ul.menu-header li {
         list-style: none;
         line-height: 50px;
     }
+    
     .nav-menu li.home {
         margin-left: 0px;
     }
+    
     .nav-menu ul {}
+    
     .nav-menu li {
         width: auto;
     }
+    
     .nav-menu ul {
         display: block;
         justify-content: space-between;
         flex-wrap: wrap;
     }
+    
     li.contracts {
         margin-right: auto;
     }
+    
     .menu-header {
         margin: 0 15px;
     }
+    
     .site-search-wrapper {
         position: absolute;
         display: inline-block;
@@ -2329,13 +2554,16 @@ hr.hr-mid {
         z-index: 15;
         padding: 0 15px;
     }
+    
     .menu-toggle {
         top: 48%;
     }
+    
     .site-search-wrapper ul li a {
         font-size: 14px;
     }
     /* ===== */
+    
     .site-header-big {
         background: url(../images/silde.png);
         height: 210px;
@@ -2344,12 +2572,11 @@ hr.hr-mid {
         background-position: center;
         width: 100%;
     }
+    
     .pos-dumblles {
         margin-top: 11%;
-        /* display: block;  */
-        /* flex-wrap: wrap;  */
-        /* justify-content: space-between; */
     }
+    
     .pos-dumblles-right {
         z-index: 5;
         height: 235px;
@@ -2358,28 +2585,34 @@ hr.hr-mid {
         left: 44%;
         top: -9%;
     }
+    
     .pos-dumblles-left {
         z-index: 6;
         margin-left: 0px;
         margin-left: 0px;
         padding-top: 0px;
     }
+    
     .title-dumbells-shop h1 {
         font-size: 20px;
         line-height: 40px;
     }
+    
     .title-dumbells-shop h3 {
         font-size: 13px;
         line-height: 40px;
     }
+    
     .sub-dumbells-shop {
         margin-top: -9px;
         margin-left: 0;
     }
+    
     .sub-dumbells-shop p {
         line-height: 9px;
         font-size: 5px;
     }
+    
     .shop-now {
         font-size: 4px;
         text-transform: uppercase;
@@ -2394,54 +2627,67 @@ hr.hr-mid {
         margin-left: 0%;
     }
     /* ====== */
+    
     .content-cate {
         max-width: 395px;
     }
+    
     .dad-pos-cate {
         top: -21px;
         z-index: 15;
     }
+    
     .img-category-01 img {
         width: 100%;
     }
+    
     .img-category-02 img {
         width: 100%;
     }
+    
     .img-category-03 img {
         width: 100%;
     }
+    
     .stregth {
         padding: 3px 0px 0px 1px;
     }
+    
     .dumbbells-category {
         padding: 11px 0px 0px 0px;
     }
+    
     .power-rack {
         padding: 10px 0px 0px 0px;
     }
+    
     .stregth img,
     .dumbbells-category img,
     .power-rack img {
         width: 10%;
     }
+    
     .stregth h3,
     .dumbbells-category h3,
     .power-rack h3 {
         font-size: 10px;
         margin-top: 0px;
     }
+    
     .stregth h5,
     .dumbbells-category h5,
     .power-rack h5 {
         font-size: 7px;
         margin-top: 0px;
     }
+    
     #bg-catergory-content {
         height: 103.23px;
         flex: 0 0 50%;
         max-width: 50%;
     }
     /* === */
+    
     .line {
         max-width: 395px;
         width: 90%;
@@ -2449,17 +2695,21 @@ hr.hr-mid {
         margin: 0 auto;
         margin-top: -6px;
     }
+    
     .product {
         margin-top: 358px;
     }
+    
     .site-wrapper {
         max-width: 425px;
         padding: 0 15px;
     }
+    
     .nav-product-list {
         margin-left: 1px;
         margin-top: -19px;
     }
+    
     #nav-pro-item-01 {
         font-weight: 600;
         margin-right: 3px;
@@ -2467,9 +2717,11 @@ hr.hr-mid {
         padding: 0px 6px 16px 2px;
         margin-left: 7px;
     }
+    
     .list-product {
         margin: 0 18px;
     }
+    
     .nav-product-list h3 {
         --border-color: red;
         --border-width: 2px;
@@ -2486,10 +2738,13 @@ hr.hr-mid {
         font-size: 10px;
         font-weight: 600;
     }
+    
     .nav-product-list h3 {}
+    
     .nav-product-item {
         background-position: 0 calc(100% - var(--bottom-distance));
     }
+    
     .nav-product-item {
         margin-left: 18px;
         margin-right: 13px;
@@ -2500,18 +2755,22 @@ hr.hr-mid {
         text-transform: uppercase;
         display: inline-block;
     }
+    
     .product-category #img-sp {
         margin-top: 0px;
         margin-left: 0px;
     }
+    
     .border-pro-01 #img-sp img {
         width: 130px;
         height: 153px;
     }
+    
     .border-pro-01 #img-sp {
         margin-top: 0px;
         margin-left: 0px;
     }
+    
     .img-sp02 img,
     .img-sp03 img,
     .img-sp04 img,
@@ -2522,6 +2781,7 @@ hr.hr-mid {
         width: 130px;
         height: 153px;
     }
+    
     .img-sp02,
     .img-sp03,
     .img-sp04,
@@ -2533,9 +2793,7 @@ hr.hr-mid {
         margin-left: 0px;
     }
     /* ----------- */
-    /* ----------- */
-    /* ----------- */
-    /* ----------- */
+    
     .border-pro-01,
     .product-category {
         margin-top: 10px;
@@ -2545,37 +2803,42 @@ hr.hr-mid {
         height: auto;
     }
     /* ----------- */
-    /* ----------- */
-    /* ----------- */
+    
     #icon-pro-top ul {
         margin-left: 5px;
         margin-top: 4px;
     }
+    
     #icon-pro-bottom ul {
         margin-top: 4px;
     }
+    
     .icon-pro-01>ul {
         visibility: visible;
         opacity: 1;
     }
+    
     .icon-pro-01 .fa-shopping-basket {
         padding: 5px 5px 5px 5px;
         border: 1px solid;
         border-radius: 6px 0 6px 0;
         font-size: 15px;
     }
+    
     .icon-pro-01 .fa-eye {
         padding: 5px 5px 5px 5px;
         border: 1px solid;
         border-radius: 6px 0 6px 0;
         font-size: 15px;
     }
+    
     .icon-pro-01 .fa-heart {
         padding: 5px 5px 5px 5px;
         border: 1px solid;
         border-radius: 6px 0 6px 0;
         font-size: 15px;
     }
+    
     .icon-pro-01 .fa-exchange-alt {
         padding: 5px 5px 5px 5px;
         border: 1px solid;
@@ -2583,6 +2846,7 @@ hr.hr-mid {
         font-size: 15px;
     }
     /*  */
+    
     .info-pro-01,
     .info-pro-02,
     .info-pro-03,
@@ -2595,39 +2859,45 @@ hr.hr-mid {
         margin-top: 28%;
         margin-left: 0px;
     }
+    
     .product-01-top {
         height: 112px;
     }
+    
     .product-01-bottom h3 {
         font-size: 15px;
         font-weight: 400;
     }
+    
     .product-01-bottom h4 {
         font-size: 15px;
     }
     /* ---------- */
-    /* ---------- */
-    /* ---------- */
-    /* ---------- */
+    
     .client-say .frame-client {
         margin-top: 50px;
     }
+    
     .client-content h2 {
         margin-left: 20px;
         font-size: 15px;
         font-weight: 700;
     }
+    
     .img-client {
         margin-top: 20px;
         margin-left: 18px;
     }
+    
     .img-client img {
         width: 15%;
     }
+    
     .txt-mess {
         margin-left: 0px;
         margin-top: 0px;
     }
+    
     .txt-mess h3 {
         margin: auto;
         color: #777777;
@@ -2637,30 +2907,36 @@ hr.hr-mid {
         width: auto;
         line-height: initial;
     }
+    
     .client-lina {
         font-family: 'Poppins', sans-serif;
         margin-top: 10px;
         letter-spacing: -1px;
     }
+    
     .client-lina h3 {
         text-transform: uppercase;
         font-size: 15px;
     }
+    
     .happy-client {
         margin: auto;
         margin-left: 17px;
         margin-top: 0px;
     }
+    
     .happy-client h4 {
         font-weight: 300;
         color: #777777;
         font-size: 10px;
     }
+    
     .dots {
         cursor: pointer;
         height: 9px;
         width: 8px;
     }
+    
     .carousel_dot {
         text-align: center;
         position: absolute;
@@ -2669,59 +2945,91 @@ hr.hr-mid {
         right: 0;
     }
     /* ---------------- */
+    
     .client-say {
         text-align: center;
         font-family: 'Poppins', sans-serif;
         margin-bottom: 44px;
     }
     /* -------------------- */
+    
     .brand .site-wrapper {
+        height: 50px;
         max-width: 425px;
         padding: 0px 0px 0 15px;
     }
+    
     hr.hr-mid {
         border: 1px solid #cccccc;
         margin-bottom: 10px;
     }
+    
     .items-brand {
         padding: 0;
         display: flex;
         flex-wrap: wrap;
     }
+    
     .items-brand img {
         width: 80%;
     }
+    
     .brand-04,
     .brand-05,
     .brand-06 {
         display: none;
     }
+    
     .brand-01,
     .brand-02,
     .brand-03 {
         flex-wrap: 0 0 0 33%;
         width: 33%;
     }
+    
     .brand-01 {
         margin-right: 0px;
         margin-top: 0px;
     }
+    
     .brand-02 {
         margin-right: 0px;
         margin-top: -12px;
     }
+    
     .brand-03 {
         margin-right: 0px;
         margin-top: -13px;
     }
+    /*  */
+    
+    .brand-boder {
+        display: none;
+    }
+    
+    .brand-boder-slide {
+        display: block;
+    }
+    
+    .mySlides--hidden {
+        display: none;
+    }
+    
+    .mySlides.active {
+        display: block;
+    }
+    /*  */
     /* ----------------------- */
+    
     .footer-page {
         margin-top: 6px;
     }
+    
     .logo-footer img {
         width: 35%;
         margin: 33px 0 29px 0;
     }
+    
     .txt-footer {
         margin-top: auto;
         text-align: center;
@@ -2730,6 +3038,7 @@ hr.hr-mid {
         padding-left: auto;
         line-height: 23px;
     }
+    
     .txt-footer h4 {
         font-family: 'Poppins', sans-serif;
         font-size: 10px;
@@ -2737,6 +3046,7 @@ hr.hr-mid {
         font-weight: 400;
         text-align: center;
     }
+    
     .icon-footer {
         margin-top: 25px;
         margin-bottom: 25px;
@@ -2745,102 +3055,128 @@ hr.hr-mid {
         letter-spacing: -15px;
         padding-right: 0;
     }
+    
     .border-icon-footer ul li a {
         font-size: 15px;
     }
+    
     .infor-footer {
         display: flex;
         flex-wrap: wrap;
     }
+    
     .contact-us {
         margin-right: 0;
     }
+    
     .my-account {
         margin-top: 10px;
     }
+    
     .infomation {
         margin-top: 10px;
     }
+    
     .qick-link {
         margin-top: 10px;
     }
+    
     .infor-footer h3 {
         font-size: 14px;
     }
+    
     .infor-footer ul {
         line-height: 39px;
         margin-top: 2px;
     }
+    
     .infor-footer li a {
         font-size: 11px;
     }
+    
     .bottom-footer {
         margin-top: 38px;
     }
+    
     .copyright {
         margin-top: 21px;
         height: 40px;
     }
+    
     .copyright h4 {
         font-size: 8px;
     }
+    
     .btn-client {
         margin-top: -34px;
         margin-left: 26px;
     }
+    
     .btn-client button {
         height: 9px;
         width: 9px;
         margin-right: 6px;
     }
 }
-
 @media (width: 375px) {
     .bg-header-big-top {
         height: 60px;
     }
+    
     .header-contracts {
         margin-right: 0px;
     }
+    
     .header-big-top {
         max-width: 375px;
         padding: 0 15px;
     }
+    
     .text-search {
         position: absolute;
         right: 29%;
         top: 95%;
     }
+    
     #myInput {
         width: 100px;
     }
+    
     .border-text .fas.fa-search {
         border-right: 0;
     }
+    
     .search {
         width: 7%;
         position: absolute;
         right: 23%;
         top: 95%;
     }
+    
     .search a {
         color: #ac9090;
     }
+    
     .border-text.active {
         display: block;
     }
+    
     .logo-contracts {
         padding-top: 15px;
     }
+    
     .logo-contracts img {
         width: 50%;
     }
+    
     .header-contracts {
         position: relative;
     }
+    
     .menu-toggle {
         display: inline-block;
     }
+    
     .nav-menu {
         position: absolute;
         background-color: rgba(0, 0, 0, 0.6);
@@ -2853,41 +3189,52 @@ hr.hr-mid {
         max-width: 320px;
         width: 100%;
     }
+    
     .nav-menu {
         width: 80%;
         padding-top: 0px;
         margin-right: auto;
     }
+    
     .nav-menu.active {
         opacity: 1;
         visibility: visible;
     }
+    
     .nav-menu ul.menu-header li {
         display: block;
         border-bottom: 1px solid #ffffff;
     }
+    
     .nav-menu ul.menu-header li {
         list-style: none;
         line-height: 50px;
     }
+    
     .nav-menu li.home {
         margin-left: 0px;
     }
+    
     .nav-menu ul {}
+    
     .nav-menu li {
         width: auto;
     }
+    
     .nav-menu ul {
         display: block;
         justify-content: space-between;
         flex-wrap: wrap;
     }
+    
     li.contracts {
         margin-right: auto;
     }
+    
     .menu-header {
         margin: 0 15px;
     }
+    
     .site-search-wrapper {
         position: absolute;
         display: inline-block;
@@ -2896,13 +3243,16 @@ hr.hr-mid {
         z-index: 15;
         padding: 0 15px;
     }
+    
     .menu-toggle {
         top: 48%;
     }
+    
     .site-search-wrapper ul li a {
         font-size: 14px;
     }
     /* ===== */
+    
     .site-header-big {
         background: url(../images/silde.png);
         height: 210px;
@@ -2911,12 +3261,11 @@ hr.hr-mid {
         background-position: center;
         width: 100%;
     }
+    
     .pos-dumblles {
         margin-top: 11%;
-        /* display: block;  */
-        /* flex-wrap: wrap;  */
-        /* justify-content: space-between; */
     }
+    
     .pos-dumblles-right {
         z-index: 5;
         height: 235px;
@@ -2925,31 +3274,34 @@ hr.hr-mid {
         left: 44%;
         top: -9%;
     }
+    
     .pos-dumblles-left {
         z-index: 6;
         margin-left: 0px;
         margin-left: 0px;
         padding-top: 0px;
     }
+    
     .title-dumbells-shop h1 {
-        /* margin-top: 13px; */
         font-size: 20px;
         line-height: 40px;
     }
+    
     .title-dumbells-shop h3 {
-        /* margin-top: 13px; */
         font-size: 13px;
         line-height: 40px;
     }
+    
     .sub-dumbells-shop {
         margin-top: -9px;
         margin-left: 0;
     }
+    
     .sub-dumbells-shop p {
         line-height: 9px;
         font-size: 5px;
-        /* margin-top: 15px; */
     }
+    
     .shop-now {
         font-size: 4px;
         text-transform: uppercase;
@@ -2964,56 +3316,67 @@ hr.hr-mid {
         margin-left: 0%;
     }
     /* ====== */
+    
     .content-cate {
         max-width: 395px;
-        /* margin: 0 auto; */
-        /* position: relative; */
     }
+    
     .dad-pos-cate {
         top: -21px;
         z-index: 15;
     }
+    
     .img-category-01 img {
         width: 100%;
     }
+    
     .img-category-02 img {
         width: 100%;
     }
+    
     .img-category-03 img {
         width: 100%;
     }
+    
     .stregth {
         padding: 3px 0px 0px 1px;
     }
+    
     .dumbbells-category {
         padding: 11px 0px 0px 0px;
     }
+    
     .power-rack {
         padding: 10px 0px 0px 0px;
     }
+    
     .stregth img,
     .dumbbells-category img,
     .power-rack img {
         width: 10%;
     }
+    
     .stregth h3,
     .dumbbells-category h3,
     .power-rack h3 {
         font-size: 10px;
         margin-top: 0px;
     }
+    
     .stregth h5,
     .dumbbells-category h5,
     .power-rack h5 {
         font-size: 7px;
         margin-top: 0px;
     }
+    
     #bg-catergory-content {
         height: 103.23px;
         flex: 0 0 50%;
         max-width: 50%;
     }
     /* === */
+    
     .line {
         max-width: 395px;
         width: 90%;
@@ -3021,26 +3384,32 @@ hr.hr-mid {
         margin: 0 auto;
         margin-top: -6px;
     }
+    
     .product {
         margin-top: 358px;
     }
+    
     .site-wrapper {
         max-width: 425px;
         padding: 0 15px;
     }
+    
     .nav-product-list {
         margin-left: 1px;
         margin-top: -19px;
     }
+    
     #nav-pro-item-01 {
         font-weight: 600;
         margin-right: 3px;
         padding: 0px 6px 16px 2px;
         margin-left: 7px;
     }
+    
     .list-product {
         margin: 0 18px;
     }
+    
     .nav-product-list h3 {
         --border-color: red;
         --border-width: 2px;
@@ -3057,10 +3426,13 @@ hr.hr-mid {
         font-size: 10px;
         font-weight: 600;
     }
+    
     .nav-product-list h3 {}
+    
     .nav-product-item {
         background-position: 0 calc(100% - var(--bottom-distance));
     }
+    
     .nav-product-item {
         margin-left: 18px;
         margin-right: 13px;
@@ -3071,18 +3443,22 @@ hr.hr-mid {
         text-transform: uppercase;
         display: inline-block;
     }
+    
     .product-category #img-sp {
         margin-top: 0px;
         margin-left: 0px;
     }
+    
     .border-pro-01 #img-sp img {
         width: 130px;
         height: 153px;
     }
+    
     .border-pro-01 #img-sp {
         margin-top: 0px;
         margin-left: 0px;
     }
+    
     .img-sp02 img,
     .img-sp03 img,
     .img-sp04 img,
@@ -3093,6 +3469,7 @@ hr.hr-mid {
         width: 130px;
         height: 153px;
     }
+    
     .img-sp02,
     .img-sp03,
     .img-sp04,
@@ -3104,6 +3481,7 @@ hr.hr-mid {
         margin-left: 0px;
     }
     /* ----------- */
+    
     .border-pro-01,
     .product-category {
         margin-top: 10px;
@@ -3113,35 +3491,42 @@ hr.hr-mid {
         height: auto;
     }
     /* ----------- */
+    
     #icon-pro-top ul {
         margin-left: 5px;
         margin-top: 4px;
     }
+    
     #icon-pro-bottom ul {
         margin-top: 4px;
     }
+    
     .icon-pro-01>ul {
         visibility: visible;
         opacity: 1;
     }
+    
     .icon-pro-01 .fa-shopping-basket {
         padding: 5px 5px 5px 5px;
         border: 1px solid;
         border-radius: 6px 0 6px 0;
         font-size: 15px;
     }
+    
     .icon-pro-01 .fa-eye {
         padding: 5px 5px 5px 5px;
         border: 1px solid;
         border-radius: 6px 0 6px 0;
         font-size: 15px;
     }
+    
     .icon-pro-01 .fa-heart {
         padding: 5px 5px 5px 5px;
         border: 1px solid;
         border-radius: 6px 0 6px 0;
         font-size: 15px;
     }
+    
     .icon-pro-01 .fa-exchange-alt {
         padding: 5px 5px 5px 5px;
         border: 1px solid;
@@ -3149,6 +3534,7 @@ hr.hr-mid {
         font-size: 15px;
     }
     /*  */
+    
     .info-pro-01,
     .info-pro-02,
     .info-pro-03,
@@ -3161,36 +3547,45 @@ hr.hr-mid {
         margin-top: 28%;
         margin-left: 0px;
     }
+    
     .product-01-top {
         height: 112px;
     }
+    
     .product-01-bottom h3 {
         font-size: 15px;
         font-weight: 400;
     }
+    
     .product-01-bottom h4 {
         font-size: 15px;
     }
     /* ---------- */
+    
     .client-say .frame-client {
         margin-top: 50px;
     }
+    
     .client-content h2 {
         margin-left: 20px;
         font-size: 15px;
         font-weight: 700;
     }
+    
     .img-client {
         margin-top: 20px;
         margin-left: 18px;
     }
+    
     .img-client img {
         width: 15%;
     }
+    
     .txt-mess {
         margin-left: 0px;
         margin-top: 0px;
     }
+    
     .txt-mess h3 {
         margin: auto;
         color: #777777;
@@ -3200,30 +3595,36 @@ hr.hr-mid {
         width: auto;
         line-height: initial;
     }
+    
     .client-lina {
         font-family: 'Poppins', sans-serif;
         margin-top: 10px;
         letter-spacing: -1px;
     }
+    
     .client-lina h3 {
         text-transform: uppercase;
         font-size: 15px;
     }
+    
     .happy-client {
         margin: auto;
         margin-left: 17px;
         margin-top: 0px;
     }
+    
     .happy-client h4 {
         font-weight: 300;
         color: #777777;
         font-size: 10px;
     }
+    
     .dots {
         cursor: pointer;
         height: 9px;
         width: 8px;
     }
+    
     .carousel_dot {
         text-align: center;
         position: absolute;
@@ -3232,59 +3633,73 @@ hr.hr-mid {
         right: 0;
     }
     /* ---------------- */
+    
     .client-say {
         text-align: center;
         font-family: 'Poppins', sans-serif;
         margin-bottom: 44px;
     }
     /* -------------------- */
+    
     .brand .site-wrapper {
-        max-width: 425px;
+        height: 50px;
+        max-width: 375px;
         padding: 0px 0px 0 15px;
     }
+    
     hr.hr-mid {
         border: 1px solid #cccccc;
         margin-bottom: 10px;
     }
+    
     .items-brand {
         padding: 0;
         display: flex;
         flex-wrap: wrap;
     }
+    
     .items-brand img {
         width: 80%;
     }
+    
     .brand-04,
     .brand-05,
     .brand-06 {
         display: none;
     }
+    
     .brand-01,
     .brand-02,
     .brand-03 {
         flex-wrap: 0 0 0 33%;
         width: 33%;
     }
+    
     .brand-01 {
         margin-right: 0px;
         margin-top: 0px;
     }
+    
     .brand-02 {
         margin-right: 0px;
         margin-top: -12px;
     }
+    
     .brand-03 {
         margin-right: 0px;
         margin-top: -13px;
     }
     /* ----------------------- */
+    
     .footer-page {
         margin-top: 6px;
     }
+    
     .logo-footer img {
         width: 35%;
         margin: 33px 0 29px 0;
     }
+    
     .txt-footer {
         margin-top: auto;
         text-align: center;
@@ -3293,6 +3708,7 @@ hr.hr-mid {
         padding-left: auto;
         line-height: 23px;
     }
+    
     .txt-footer h4 {
         font-family: 'Poppins', sans-serif;
         font-size: 10px;
@@ -3300,6 +3716,7 @@ hr.hr-mid {
         font-weight: 400;
         text-align: center;
     }
+    
     .icon-footer {
         margin-top: 25px;
         margin-bottom: 25px;
@@ -3308,43 +3725,58 @@ hr.hr-mid {
         letter-spacing: -15px;
         padding-right: 0;
     }
+    
     .border-icon-footer ul li a {
         font-size: 15px;
     }
+    
     .infor-footer {
         display: flex;
         flex-wrap: wrap;
     }
+    
     .contact-us {
         margin-right: 0;
     }
+    
     .my-account {
         margin-top: 10px;
     }
+    
     .infomation {
         margin-top: 10px;
     }
+    
     .qick-link {
         margin-top: 10px;
     }
+    
     .infor-footer h3 {
         font-size: 14px;
     }
+    
     .infor-footer ul {
         line-height: 39px;
         margin-top: 2px;
     }
+    
     .infor-footer li a {
         font-size: 11px;
     }
+    
     .bottom-footer {
         margin-top: 38px;
     }
+    
     .copyright {
         margin-top: 21px;
         height: 40px;
     }
+    
     .copyright h4 {
         font-size: 8px;
     }
+}
+.brand-boder-slide {
+    text-align: center;
 }
