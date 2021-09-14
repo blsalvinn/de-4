@@ -129,7 +129,7 @@
         margin-left: 0px;
         padding-top: 151px;
     }
-    .title-dumbells-shop h1 {
+    .title-dumbells-shop h2 {
         font-size: 30px;
         line-height: 40px;
     }
@@ -424,6 +424,12 @@
         margin-bottom: 44px;
     }
     /* -------------------- */
+    .brand {
+        height: 42px;
+    }
+    .img-brand {
+        margin: 0 23px;
+    }
     .brand .site-wrapper {
         height: 50px;
         max-width: 320px;
@@ -884,7 +890,7 @@
         margin-right: 30px;
         width: 25%;
     }
-    .title-dumbells-shop h1 {
+    .title-dumbells-shop h2 {
         /* margin-top: 13px; */
         font-size: 40px;
     }
@@ -1123,7 +1129,7 @@
         padding-top: 35px;
         width: 22%;
     }
-    .title-dumbells-shop h1 {
+    .title-dumbells-shop h2 {
         font-size: 30px;
     }
     .title-dumbells-shop h3 {
@@ -1544,7 +1550,7 @@
         display: block;
     }
     .logo-contracts {
-        padding-top: 15px;
+        padding-top: 9px;
     }
     .logo-contracts img {
         width: 50%;
@@ -1588,7 +1594,6 @@
     .nav-menu li.home {
         margin-left: 0px;
     }
-    .nav-menu ul {}
     .nav-menu li {
         width: auto;
     }
@@ -1606,14 +1611,14 @@
     .site-search-wrapper {
         position: absolute;
         display: inline-block;
-        top: 47%;
+        top: 37%;
         right: 7%;
         z-index: 15;
         padding: 0 15px;
     }
     .menu-toggle {
         font-size: 20px;
-        top: 48%;
+        top: 39%;
     }
     .site-search-wrapper ul li a {
         font-size: 11px;
@@ -1642,9 +1647,9 @@
         z-index: 6;
         margin-left: 0px;
         margin-left: 0px;
-        padding-top: 0px;
+        padding-top: 7px;
     }
-    .title-dumbells-shop h1 {
+    .title-dumbells-shop h2 {
         font-size: 20px;
         line-height: 28px;
     }
@@ -2147,7 +2152,7 @@
         display: block;
     }
     .logo-contracts {
-        padding-top: 15px;
+        padding-top: 11px;
     }
     .logo-contracts img {
         width: 50%;
@@ -2191,7 +2196,6 @@
     .nav-menu li.home {
         margin-left: 0px;
     }
-    .nav-menu ul {}
     .nav-menu li {
         width: auto;
     }
@@ -2209,13 +2213,13 @@
     .site-search-wrapper {
         position: absolute;
         display: inline-block;
-        top: 47%;
+        top: 37%;
         right: 7%;
         z-index: 15;
         padding: 0 15px;
     }
     .menu-toggle {
-        top: 48%;
+        top: 42%;
     }
     .site-search-wrapper ul li a {
         font-size: 9px;
@@ -2246,7 +2250,7 @@
         margin-left: 0px;
         padding-top: 0px;
     }
-    .title-dumbells-shop h1 {
+    .title-dumbells-shop h2 {
         font-size: 20px;
         line-height: 32px;
     }
@@ -2370,7 +2374,6 @@
         font-size: 10px;
         font-weight: 600;
     }
-    .nav-product-list h3 {}
     .nav-product-item {
         background-position: 0 calc(100% - var(--bottom-distance));
     }
@@ -2544,8 +2547,11 @@
         max-width: 375px;
         padding: 0px 0px 0 15px;
     }
+    .img-brand {
+        margin: 0 23px;
+    }
     .brand {
-        height: 54px;
+        height: 52px;
     }
     hr.hr-mid {
         border: 1px solid #cccccc;

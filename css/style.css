@@ -39,6 +39,7 @@ a {
 }
 
 .header-contracts {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -50,6 +51,127 @@ a {
     color: #d4d4d4;
     ;
 }
+
+#txt_box_search {
+    align-items: center;
+    top: 78%;
+    position: absolute;
+    height: 30px;
+    right: 136px;
+}
+
+#txt_box_search {
+    display: none;
+}
+
+#txt_box_search.active input {
+    height: 33px;
+}
+
+#txt_box_search.active {
+    opacity: 1;
+    visibility: visible;
+    display: block;
+}
+
+.ic_box_search {
+    position: absolute;
+}
+
+.ic_box_search {
+    margin-top: 8px;
+    height: 100%;
+}
+
+.ic_box_search .fa-search:before {
+    border: none;
+    position: absolute;
+    top: 5%;
+    color: black;
+    right: -13%;
+    margin-right: -21px;
+}
+
+
+/*  */
+
+.txt_box_basket {
+    min-width: 320px;
+    background-color: #ffffff;
+    top: 101%;
+    position: absolute;
+    z-index: 10;
+    right: -7px;
+    border: 1px solid #ffffff;
+    box-shadow: 0 0 5px #eaeaea;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #282828;
+    padding: 1em 0.5em 0;
+    transition: opacity .4s linear;
+    /* 
+    opacity: 0;
+    visibility: hidden;
+     */
+}
+
+.mid_txt_basket {
+    padding: 10px 0;
+    margin-bottom: 8px;
+    border-bottom: 1px solid brown;
+    border-top: 1px solid brown;
+}
+
+.txt_box_basket {
+    display: none;
+}
+
+.txt_box_basket.active {
+    display: block;
+}
+
+.bottom_txt_basket a {
+    color: rgb(255, 255, 255);
+}
+
+.view_card,
+.check_out {
+    padding: 15px 106px;
+    margin-bottom: 5px;
+    background: rgb(187, 88, 88);
+    border: 1px solid rgb(187, 88, 88);
+}
+
+.top_txt_basket {
+    overflow-x: auto;
+    height: 160px;
+}
+
+
+/*  */
+
+.txt_box_user {
+    padding: 5px 0;
+    border: 1px solid #666666;
+    background: #666666;
+    z-index: 20;
+    color: white;
+    position: absolute;
+    right: -3px;
+    top: 87%;
+}
+
+.txt_box_user {
+    display: none;
+}
+
+.txt_box_user.active {
+    display: block;
+}
+
+
+/*  */
 
 .logo-contracts {
     padding-top: 24px;
@@ -69,7 +191,15 @@ a {
     padding-top: 40px;
 }
 
-.nav-menu {}
+.home a:hover,
+.page a:hover,
+.classes a:hover,
+.portfolio a:hover,
+.blog a:hover,
+.contracts a:hover {
+    /* background: red; */
+    color: red;
+}
 
 li.contracts {
     margin-right: 44px;
@@ -143,13 +273,17 @@ li.contracts {
     width: 153px;
     height: 44px;
     border: 1px solid #ffffff;
-    padding: 15px 20px;
+    padding: 12px 20px;
     text-align: center;
     color: #f1f2f2;
     margin-left: 5px;
 }
 
-.title-dumbells-shop h1 {
+.shop-now a:hover {
+    color: rgb(212, 91, 91);
+}
+
+.title-dumbells-shop h2 {
     font-size: 60px;
 }
 
@@ -338,11 +472,25 @@ li.contracts {
 
 /*.................PRODUCT.........................*/
 
+.nav-product-list .active h3 {
+    background-size: 100% var(--border-width);
+}
+
+.nav-product-list span {
+    cursor: pointer;
+}
+
+.boder_list_pro.fade.active {
+    display: block;
+}
+
+.boder_list_pro {
+    display: none;
+}
+
 .product {
     margin-top: 520px;
 }
-
-.nav-product {}
 
 .nav-product-item {
     margin-left: 18px;
@@ -419,7 +567,7 @@ li.contracts {
 }
 
 .nav-product-list {
-    margin-left: 2px;
+    margin-left: -19px;
     margin-top: -1px;
 }
 
@@ -631,6 +779,26 @@ span.dots-opacity {
     margin-left: 33px;
 }
 
+
+/* .info-pro-01 a,
+.info-pro-02 a,
+.info-pro-03 a,
+.info-pro-04 a,
+.info-pro-05 a,
+.info-pro-06 a,
+.info-pro-07 a,
+.info-pro-08 a {
+    color: black;
+} */
+
+.h3_infor_pro h3 {
+    color: black;
+}
+
+.h3_infor_pro h3:hover {
+    color: rgb(27, 196, 226);
+}
+
 .info-pro-02 {
     margin-top: 27px;
     line-height: 25px;
@@ -785,6 +953,10 @@ hr.hr-mid {
 
 /* =------Brand------= */
 
+.brand {
+    height: 104px;
+}
+
 .brand-boder-slide {
     display: none;
 }
@@ -853,7 +1025,7 @@ hr.hr-mid {
 /* --------Footer---------- */
 
 .footer-page {
-    /* margin-top: 15px; */
+    margin-top: 6px;
     background-color: #222222;
 }
 
@@ -874,7 +1046,7 @@ hr.hr-mid {
     line-height: 23px;
 }
 
-.txt-footer h4 {
+.txt-footer p {
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     color: #717171;
@@ -963,7 +1135,7 @@ hr.hr-mid {
     color: #777777;
     text-align: center;
     margin-top: 38px;
-    height: 50px;
+    height: 52px;
 }
 
 .copyright h4 {
