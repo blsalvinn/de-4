@@ -116,17 +116,18 @@
     }
     .pos-dumblles-right {
         z-index: 5;
-        height: 444px;
+        height: 438px;
         display: block;
         position: absolute;
-        left: 37%;
+        left: 36%;
         top: 10%;
+        padding-top: 88px;
     }
     .pos-dumblles-left {
         z-index: 6;
         margin-left: 0px;
         margin-left: 0px;
-        padding-top: 127px;
+        padding-top: 151px;
     }
     .title-dumbells-shop h1 {
         font-size: 30px;
@@ -137,7 +138,7 @@
         line-height: 40px;
     }
     .sub-dumbells-shop p {
-        font-size: 8px;
+        font-size: 7px;
     }
     .shop-now {
         font-size: 8px;
@@ -212,7 +213,10 @@
         margin-top: -6px;
     }
     .product {
-        margin-top: 358px;
+        margin-top: 326px;
+    }
+    .product-content {
+        margin-top: 18px;
     }
     .site-wrapper {
         max-width: 320px;
@@ -1003,6 +1007,12 @@
 }
 
 @media (width: 768px) {
+    .bg-header-big-top {
+        height: 90px;
+    }
+    .logo-contracts {
+        padding-top: 15px;
+    }
     .site-wrapper {
         max-width: 768px;
         padding: 0px 40px;
@@ -1105,12 +1115,12 @@
         font-size: 13px;
     }
     .pos-dumblles-left {
-        padding-top: 32px;
+        padding-top: 60px;
     }
     .pos-dumblles-right {
         margin-right: 5px;
-        height: 298px;
-        padding-top: 14px;
+        height: 305px;
+        padding-top: 35px;
         width: 22%;
     }
     .title-dumbells-shop h1 {
@@ -1636,27 +1646,27 @@
     }
     .title-dumbells-shop h1 {
         font-size: 20px;
-        line-height: 40px;
+        line-height: 28px;
     }
     .title-dumbells-shop h3 {
         font-size: 13px;
         line-height: 40px;
     }
     .sub-dumbells-shop {
-        margin-top: -9px;
+        margin-top: -4px;
         margin-left: 0;
     }
     .sub-dumbells-shop p {
         line-height: 9px;
-        font-size: 5px;
+        font-size: 7px;
     }
     .shop-now {
         font-size: 4px;
         text-transform: uppercase;
         font-weight: 400;
-        margin-top: 3px;
+        margin-top: 5px;
         width: 36px;
-        height: 0px;
+        height: 15px;
         border: 1px solid #ffffff;
         padding: 4px 4px;
         text-align: center;
@@ -2238,27 +2248,27 @@
     }
     .title-dumbells-shop h1 {
         font-size: 20px;
-        line-height: 40px;
+        line-height: 32px;
     }
     .title-dumbells-shop h3 {
         font-size: 13px;
         line-height: 40px;
     }
     .sub-dumbells-shop {
-        margin-top: -9px;
+        margin-top: -8px;
         margin-left: 0;
     }
     .sub-dumbells-shop p {
         line-height: 9px;
-        font-size: 5px;
+        font-size: 7px;
     }
     .shop-now {
         font-size: 4px;
         text-transform: uppercase;
         font-weight: 400;
-        margin-top: 3px;
+        margin-top: 6px;
         width: 36px;
-        height: 0px;
+        height: 15px;
         border: 1px solid #ffffff;
         padding: 4px 4px;
         text-align: center;
