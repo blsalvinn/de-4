@@ -1135,7 +1135,7 @@ hr.hr-mid {
     color: #777777;
     text-align: center;
     margin-top: 38px;
-    height: 52px;
+    /* height: 52px; */
 }
 
 .copyright h4 {
